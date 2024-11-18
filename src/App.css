@@ -1,0 +1,84 @@
+/* src/App.css */
+body {
+  font-family: 'NombreDeLaFuente', sans-serif;
+  background-color: #F5F5F5; /* Color de fondo */
+  color: #333;
+}
+
+.navbar, .footer {
+  background-color: aliceblue; /* Color del manual */
+  color: #ffffff;
+}
+
+.catalog h1 {
+  color: aqua; /* Color de acento */
+}
+
+.service-item h2 {
+  color: palegreen;
+}
+
+
+/* Estilo base del footer */
+.footer {
+  background-color: #004D4D; /* Verde que representa el agro */
+  color: #040404;  /* Color oscuro para el texto */
+  padding: 40px 0;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+/* Contenedor principal del footer */
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Estilo para los enlaces del footer */
+.footer-links ul {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.footer-links ul li {
+  display: inline-block;  /* Los elementos de la lista estarán en línea */
+  margin-right: 20px;  /* Espaciado entre los enlaces */
+}
+
+.footer-links ul li a {
+  text-decoration: none;  /* Sin subrayado */
+  color: #ffe2e2;  /* Color oscuro de los enlaces */
+  font-size: 16px;
+  transition: color 0.3s ease;  /* Transición suave para el cambio de color */
+}
+
+
+/* Información adicional del footer */
+.footer-info {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.footer-info p {
+  margin: 5px 0;  /* Espaciado entre las líneas de la información */
+  color: #F5F5F5;
+}
+
+/* Responsividad: Estilos para pantallas pequeñas */
+@media (max-width: 768px) {
+  .footer-links ul {
+    display: block;  /* Los enlaces se mostrarán en bloque en pantallas pequeñas */
+    text-align: center;  /* Centrado de los enlaces */
+  }
+
+  .footer-links ul li {
+    display: block;  /* Los elementos de la lista se muestran en bloque */
+    margin-bottom: 10px;  /* Espaciado entre los enlaces */
+  }
+
+  .footer-info p {
+    font-size: 12px;  /* Reducir el tamaño de la fuente en pantallas pequeñas */
+  }
+}

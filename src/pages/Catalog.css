@@ -1,0 +1,68 @@
+/* src/pages/Catalog.css */
+
+/* Variables de color */
+:root {
+  --color-principal: #4CAF50 !important;  /* Verde para el título */
+  --color-secundario: #333 !important;    /* Gris oscuro para texto principal */
+  --color-terciario: #666 !important;     /* Gris claro para descripciones */
+  --color-hover: #2e8b57 !important;      /* Verde más oscuro para hover */
+  --color-fondo: #f9f9f9 !important;      /* Fondo de la página */
+  --color-fondo-item: #fff !important;    /* Fondo de los items */
+  --color-titulo-item: #333 !important;   /* Color para títulos de los servicios */
+}
+
+/* Estilos generales del catálogo */
+.catalog {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: var(--color-fondo) !important;
+}
+
+.catalog h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: var(--color-principal) !important; /* Usamos el color principal */
+  font-size: 2rem;
+}
+
+.service-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.service-item {
+  background-color: var(--color-fondo-item) !important;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  margin: 10px;
+  padding: 15px;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.service-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  background-color: var(--color-hover) !important; /* Cambia el color de fondo al pasar el ratón */
+}
+
+.service-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.service-item h2 {
+  font-size: 1.25rem;
+  color: var(--color-titulo-item) !important; /* Usamos el color del título */
+  margin: 10px 0;
+}
+
+.service-item p {
+  font-size: 1rem;
+  color: var(--color-terciario) !important; /* Usamos el color secundario para las descripciones */
+}

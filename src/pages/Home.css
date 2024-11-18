@@ -1,0 +1,166 @@
+/* Estilos generales de la página */
+.home {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  background-color: #dbe3e3;
+  padding: 0 20px;
+}
+/* Estilo para el logo en la sección Hero */
+.hero-section .logo {
+  max-width: 250px;  /* Reducir el tamaño del logo */
+;
+}
+/* Sección Hero */
+.hero-section {
+  text-align: center;
+  background: #004D4D;
+  color: white;
+  padding: 20px 20px;
+}
+
+.hero-section h1 {
+  font-size: 2.5rem;  /* Reducir el tamaño de la fuente */
+  margin-bottom: 20px;
+  font-weight: bold;  /* Asegura que el texto sea destacado sin ser excesivo */
+}
+
+.hero-section p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.btn-primary {
+  padding: 10px 20px;
+  background-color: #018f3d;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+/* Sección Sobre nosotros */
+.about-us {
+  background-color: rgb(239, 236, 139);
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.about-us h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.about-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 40px;
+}
+
+.about-text {
+  flex: 1;
+  text-align: left;
+}
+
+.about-text p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.about-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Sección de Servicios */
+.services {
+  padding: 40px 20px;
+  background-color: #eaeaea;
+  text-align: center;
+}
+
+.services h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+/* Estilo para los títulos de cada servicio */
+.service-item h3 {
+  font-size: 1.8em;
+  color: #ff9800;  /* Cambia el color de los títulos de los servicios */
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+/* Estilo para el texto de los servicios */
+.service-item p {
+  font-size: 1.2em;
+  color: #555;  /* Color para el texto de los servicios, puedes cambiarlo si deseas */
+}
+
+.services-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.service-item {
+  background-color: rgb(202, 238, 72);
+  padding: 20px;
+  border-radius: 10px;
+  width: 30%;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.service-item h3 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.service-item p {
+  font-size: 1rem;
+  color: #000000;
+}
+
+/* Sección Galería */
+.gallery-preview {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: rgb(239, 236, 139);
+}
+
+.gallery-preview h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.gallery-preview .btn-secondary {
+  background-color: #018f3d;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+/* Sección Eventos */
+.events-preview {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #f4f4f4;
+}
+
+.events-preview h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.events-preview .btn-secondary {
+  background-color: #018f3d;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}

@@ -1,0 +1,42 @@
+/* Estilo general para el navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #004D4D; /* Color de fondo del navbar */
+  position: relative;
+  z-index: 1000; /* Asegura que esté encima de otros elementos */
+}
+
+/* Estilo del logo */
+.navbar-logo {
+  display: flex;
+  justify-content: center; /* Centra el logo */
+  align-items: center;
+  width: 100%;
+}
+
+.navbar-logo img {
+  height: 50px; /* Ajusta el tamaño del logo */
+  width: auto; /* Mantiene la proporción del logo */
+}
+
+/* Estilos para los enlaces del navbar */
+.navbar-links {
+  display: flex;
+  justify-content: flex-end; /* Alinea los enlaces a la derecha */
+  flex-grow: 1; /* Asegura que el espacio restante sea tomado por los enlaces */
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: #004D4D;
+  margin-left: 20px;
+  font-size: 16px;
+  transition: color 0.3s ease; /* Añade transición suave */
+}
+
+.navbar-links a:hover {
+  color: #018f3d; /* Color al pasar el ratón */
+}
